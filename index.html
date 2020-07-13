@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./public/main.css" type="text/css" />
+    <title>Post Anything</title>
+</head>
+<body>
+    <div class="toggler">
+    <span id="openNav">&#9776; Menu</span>
+    </div>
+    <nav id="nav" class="sidenav">
+        <ul>
+            <li><h2>What in your MIND..!</h2></li>
+            <a href="#" class="closebtn" id="closeNav">&times;</a>
+            <li><a href="create.html">New Post</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Have A Nice Day..!</h1>
+    </header>
+    <main id="main">
+        <div id="posts">
+
+        </div>
+    </main>
+    <script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-firestore.js"></script>
+    <script src="./functions/main.js"></script>
+
+</body>
+</html>

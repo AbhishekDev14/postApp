@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./public/main.css" type="text/css" />
+    <title>Create Post</title>
+</head>
+<body>
+    <div class="toggler">
+        <span id="openNav">&#9776; Menu</span>
+        </div>
+        <nav id="nav" class="sidenav">
+            <ul>
+                <li><h2>What in your MIND..!</h2></li>
+                <a href="#" class="closebtn" id="closeNav">&times;</a>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+        <main id="main">
+            <form method="POST" id="createForm">
+                <h1>Create New Post</h1>
+                <p>Fill the form below to create new post</p>
+                <input type="text" id="tittle" placeholder="Post Tittle"/>
+                <textarea id="content" placeholder="Post Content"></textarea>
+                <input type="file" id="cover">
+                <input id="postSibmit" type="submit" value="Submit">
+            </form>
+
+            <div id="progressHandler">
+                <p>Processing the Request, please wait....</p>
+                <progress id="progressBar" value="" max="100"></progress>
+            </div>
+
+        </main>
+        <script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-storage.js"></script>
+        <script src="./functions/main.js"></script>
+</body>
+</html>
