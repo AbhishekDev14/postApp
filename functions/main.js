@@ -1,12 +1,12 @@
 const config = {
-    apiKey: "AIzaSyDYihRL0Q9CAnzEPp_0D3haOdrSgS1RPf4",
-    authDomain: "postfeelings-aae40.firebaseapp.com",
-    databaseURL: "https://postfeelings-aae40.firebaseio.com",
-    projectId: "postfeelings-aae40",
-    storageBucket: "postfeelings-aae40.appspot.com",
-    messagingSenderId: "485112300090",
-    appId: "1:485112300090:web:ed8ee854554b02f8bc2b03",
-    measurementId: "G-W65G40N5WN"
+    apiKey: "Firebse API key",
+    authDomain: "",
+    databaseURL: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: "",
+    appId: "",
+    measurementId: ""
 }
 
 firebase.initializeApp(config);
